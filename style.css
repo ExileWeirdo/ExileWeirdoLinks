@@ -76,6 +76,22 @@ a:hover {
     font-size: 3rem;
     color: #26c6da;
     cursor:pointer;
+    border:none;
+    outline:none;
+    margin-top: 0;
+}
+
+.copy_and_name{
+    display:flex;
+    flex-direction:column  ;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.copy_text{
+    color:#6441a5;
+    margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .twitter_logo {
@@ -93,10 +109,9 @@ a:hover {
 
 
 
-#text {
-    font-weight: bold;
-    color: #26c6da;
-}
+
+
+
 
 @media screen and (max-width: 1000px) {
     html {
